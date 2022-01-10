@@ -1,7 +1,3 @@
-V00924998
-Aaron Mok
-Assignment 2
-
 Known problems:out put is never the same, but rw.c should work perfectly fine.
 meetup on the otherhand is a little wonky... on the initial run of senario2.sh it has a low
 chance of outputting the correct info (two keyword, both meetfirst option)
