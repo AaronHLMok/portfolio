@@ -1,5 +1,3 @@
-# Assignment 3
-
 ### TASK 1
 
 **linkedlist.h and linkedlist.c has been modified**
@@ -27,5 +25,3 @@ The normal $python3 ./script
 * After which, I have script which calculates the average from all the text files and outputs the result into 'outcome.txt' with 'python3 ./average.py'. This has everything nicely laid out.
 
 * Finally, I took everything to google docs and graphed it... haha :D
-
-By Aaron Mok V00924998 
