@@ -1,4 +1,3 @@
-# Assignment 4
 
 #### **virtmem.c**
 
@@ -24,4 +23,4 @@ From there, check frames for a valid integer 'FALSE' and returns that frame numb
 value to 0. When a page already exists in a frame, set valid back to 1.
 
 
-By Aaron Mok V00924998 
+By Aaron Mok
