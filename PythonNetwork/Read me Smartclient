@@ -1,0 +1,23 @@
+Hello! This is my smartclient. I've included the # !/bin/env python so it should run normally on cmd.
+eg: $python3 SmartClient.py (I made the mistake and used python instead of python3, took me about an hour before I noticed, haha)
+When you wish to stop, just hit ctrl+c.
+
+Please note, arguments don't do anything when you first enter the above line. But there is a reason for that.
+I've designed it so the program can request multiple times instead of typing the same command over and over.
+To get started, just run the command as above. You will then be prompt to input a domain name. Notes have been added
+to each function on how they're suppose to work.
+
+As the program runs, it will print out it's status such as, 'https accepted' as it goes through different cases.
+When errors occur, such as not being able to connect to a website, the program will print out the said error.
+The program also accepts anything after domain name such as, www.uvic.ca/undergraduate. However, to view the body please 
+uncomment a line of code. Location is noted under 'Extra' at the bottom of this README.
+
+Example cases:
+When entering an alias such as: uvic.ca, the program will still attempt to find out http supports of the redirect.
+When entering a full name such as: www.uvic.ca, the program will search for http supports.
+When entering a non-vaild name such as: asdf, an error will show up and ask for another name.
+
+Extra:
+As stated in the outline, headers and responses were said to be optional. I did this with the intention
+that who ever is marking doesn't have to scroll up a wall of body text. However, if you wish to see these then
+uncomment line 155 (should be under the function 'cookie_farm' and the line is 'print(msg)) which will display the response.
