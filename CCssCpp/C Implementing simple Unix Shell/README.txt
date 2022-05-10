@@ -1,1 +1,0 @@
-This program involves implementing a simple Unix shell which can execute commands such as 'ls' up to a maximum arguments.
